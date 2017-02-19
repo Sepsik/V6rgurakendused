@@ -4,9 +4,18 @@ h1 {
     font-family: impact, arial;
     font-size: 58px;
 }
+
+h2{
+    font-family: impact, arial;
+}
+
 img {
     float:right;
    }
+
+p {
+    text-align: justify;
+}
 
 #esimeneVeerg {
     width: 400px;
