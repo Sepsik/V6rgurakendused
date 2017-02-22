@@ -17,6 +17,18 @@ p {
     text-align: justify;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#header {
+    position: relative;
+    left: 10px;
+    top: -30px;
+}
+
+
 #esimeneVeerg {
     width: 400px;
     font-family: arial;
@@ -35,4 +47,22 @@ p {
     overflow: hidden;
     display:block
 }
+
+
+table {
+    width: 30%;
+    font-family: arial;
+}
+
+caption, th, td {
+     border-bottom: 1px solid #ddd;
+     padding: 10px;
+     text-align: left;
+}
+
+th {
+    font-family: impact, arial;
+}
+
+tr:hover {background-color: #f5f5f5}
 
