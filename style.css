@@ -18,13 +18,28 @@ p {
 }
 
 ul {
-     display: inline-block;
+    display: inline-block;
     list-style: none;
     padding: 0px;
 }
 
 ul li{
     padding: 0px 0px 0px 5px; 
+}
+
+li a{
+    padding: 5px 5px 5px 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: arial;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+a:hover {
+     background-color: #BDB76B;
+     cursor: default;
 }
 
 #header {
