@@ -97,7 +97,7 @@ iframe {
 }
 
 #konteiner {
-    position: fixed;
+    position: absolute;
     top: 400px;
     left: 450px;
     width:100px;
