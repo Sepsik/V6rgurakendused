@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Kodune Ülesanne</title>
+	<style type="text/css">
+	.active { background: skyblue; padding: 10px;}
+	</style>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var klassigaElement = $('li').first().addClass("active");
+			$("#next").click(function(){
+				$(klassigaElement).removeClass("active");
+				if ($(klassigaElement).is(":last-child") == true) {
+					klassigaElement = $('li').first().addClass("active");
+				}
+				else {
+					klassigaElement = $(klassigaElement).next().addClass("active");
+				}
+			});
+
+			$("#prev").click(function(){
+				$(klassigaElement).removeClass("active");
+				if ($(klassigaElement).is(":first-child") == true) {
+					klassigaElement = $('li').last().addClass("active");
+				}
+				else {
+					klassigaElement = $(klassigaElement).prev().addClass("active");
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+<button id="next">edasi</button>
+<button id="prev">tagasi</button>
+
+<ul>
+<li>esimene</li>
+<li>teine</li>
+<li>kolmas</li>
+<li>neljas</li>
+</ul>
+
+</body>
+</html>
