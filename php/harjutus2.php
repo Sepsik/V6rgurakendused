@@ -35,9 +35,10 @@ span {
     
     
     foreach ($arr as $value) {
-        $esimeneTäht = "<span> $value[0] </span>";
+        $value = trim($value);
+        $esimeneT2ht = "<span> $value[0] </span>";
         $tavalineTekst = "<br/>" . substr($value, 1) . "<br/>";
-        echo $esimeneTäht;
+        echo $esimeneT2ht;
         echo $tavalineTekst;
     }
 
