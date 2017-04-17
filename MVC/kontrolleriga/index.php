@@ -22,6 +22,4 @@ switch($mode) {
 	break;
 }
 
-
-
 require_once("foot.html"); ?>

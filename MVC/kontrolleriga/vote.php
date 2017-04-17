@@ -1,16 +1,15 @@
-<?php require_once("head.html"); 
-	  require_once("funktsioon.php");
+<?php require_once("funktsioon.php");
 ?>
 
 		<div id="wrap">
 			<h3>Vali oma lemmik :)</h3>
-			<form action="tulemus.php?mode=tulemus" method="POST">
-				<?php LisaPildidVoteAknasse()?>
+			<form action="?mode=tulemus" method="POST">
+				<?php lisaPildidVoteAknasse()?>
 				<br/>
 				<input type="submit" value="Valin!"/>
 			</form>
 
 		</div>
-<?php require_once("foot.html"); ?>
+
 
 				

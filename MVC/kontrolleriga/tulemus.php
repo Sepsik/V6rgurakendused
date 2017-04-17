@@ -1,4 +1,4 @@
-<?php require_once("head.html"); ?>
+
 		<div id="wrap">
 			<h3>Valiku tulemus</h3>
 			<?php 
@@ -11,4 +11,3 @@
 			?>
 		
 		</div>
-<?php require_once("foot.html"); ?>
