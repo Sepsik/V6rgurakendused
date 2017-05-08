@@ -1,0 +1,11 @@
+<?php 
+foreach($puurid as $key => $puur) {
+	 $puuriNr = $key;
+	 echo "<div class=puur>";
+	 echo "Puuri nr. ". $puuriNr;
+	 foreach($puur as $loom) {
+					echo "<img src=\"{$loom['liik']}\" alt=\"{$loom['nimi']}\"/>";
+				}
+		echo "</div>";
+		}
+?>
